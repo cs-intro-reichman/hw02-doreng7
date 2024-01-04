@@ -60,15 +60,15 @@ public class OneOfEachStats
 			System.out.println("Number of families with 4 or more children: " + Num_Fam_4_Or_More);
 			if(Max_F == Num_Fam_2)
 			{
-					System.out.println("The most common number of children is 2");
+					System.out.println("The most common number of children is 2.");
 			}
 			if(Max_F == Num_Fam_3)
 			{
-					System.out.println("The most common number of children is 3");
+					System.out.println("The most common number of children is 3.");
 			}
 			if(Max_F ==  Num_Fam_4_Or_More)
 			{
-					System.out.println("The most common number of children is 4 or more");
+					System.out.println("The most common number of children is 4 or more.");
 			}
 			
 			
