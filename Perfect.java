@@ -27,7 +27,7 @@ public class Perfect
 			  
 			  else
 			  {
-				  System.out.println(Num + " is not perfect number");
+				  System.out.println(Num + " is not a perfect number");
 			  }
 		
 			
