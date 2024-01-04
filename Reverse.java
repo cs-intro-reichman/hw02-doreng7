@@ -11,7 +11,7 @@ public class Reverse
 				Count--;
 			}
 			System.out.println();
-			System.out.print("the middle character is " + Word.charAt((Word.length() - 1) / 2));
+			System.out.print("The middle character is " + Word.charAt((Word.length() - 1) / 2));
 		}
 			
 		
