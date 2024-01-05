@@ -16,6 +16,7 @@ public class Perfect
 		      if (Count_For_Perfect == Num)
 			  {
 				  System.out.print(Num + " is a perfect number since " + Num + " = 1");
+				  // Loop inside an if is a bad practice 
 				  for (int c = 2; c < Num; c++)
 				  {
 					  if(Num % c == 0)
