@@ -21,6 +21,7 @@ public class OneOfEachStats
 				int Count = 1;
 				if(Random < 0.5)
 				{	
+					// while inside an if scope is a bad practice
 					while(Random < 0.5)
 					{
 						Count++;
@@ -30,6 +31,7 @@ public class OneOfEachStats
 				}		
 				else
 				{
+					// while inside an if scope is a bad practice
 					while(Random > 0.5)
 					{
 						Count++;
@@ -54,6 +56,7 @@ public class OneOfEachStats
 			Avg = Sum / T;
 			Max_Temp = Math.max(Num_Fam_2, Num_Fam_3);
 			Max_F = Math.max(Num_Fam_4_Or_More, Max_Temp);
+			// Bad indentation
             System.out.println("Average: " + Avg + " children to get at least one of each gender.");
 			System.out.println("Number of families with 2 children: " + Num_Fam_2);
 			System.out.println("Number of families with 3 children: " + Num_Fam_3);
