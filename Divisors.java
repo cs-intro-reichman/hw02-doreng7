@@ -10,6 +10,7 @@ public class Divisors
 			{
 			    if(Num1 % i == 0)
 				{
+				// Bad indentation 
 				System.out.println(i);
 				}					
 			}
